@@ -33,6 +33,41 @@ public class Operators{
 		//NOT
 		System.out.println(!true);//false
 		System.out.println(!false);//true
+		
+		//Assignment Operators
+		System.out.println("Assignment Operators:");
+		
+		int a=10;//Assignment
+		
+		a+=5; //Shortcut for addition adds 5 to a and assigns back to a
+		a-=5; //subtraction
+		a*=5; //multiplication
+		a/=5; //Division
+		
+		//Increment and Decrement
+		//Increment
+		//Pre-increment
+		int b=10;
+		System.out.println(++b);//11 and b=11
+		System.out.println(b);
+		
+		//Post-increment
+		b=10;
+		System.out.println(b++);//10 but b=10
+		System.out.println(b);
+		
+		//Decrement
+		//Pre-decrement
+		b=10;
+		System.out.println(--b);//9 and b=9
+		System.out.println(b);
+		
+		//Post-decrement
+		b=10;
+		System.out.println(b--);//10 but b=9
+		System.out.println(b);
+		
+		
 	}
 	
 }
