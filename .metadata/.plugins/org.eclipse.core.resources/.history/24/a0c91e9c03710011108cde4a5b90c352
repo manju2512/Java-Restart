@@ -1,0 +1,9 @@
+package basics;
+
+public class Operators{
+	void main() {
+		System.out.println("main function without static keyword");
+	}
+	
+	Operators o=new Operators();
+}
